@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.profile-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  text-align: center;
+  width: 350px;
+}
+
+.girl {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.profile-card h1 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.profile-card h2 {
+  font-size: 16px;
+  color: #007bff;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.fact-title {
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+.fact {
+  color: #666;
+  margin-top: 5px;
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+}
